@@ -26,9 +26,9 @@ To evaluate the results, we calculate the total number of predictions that exact
 
 # What results did we finally get and how did we evaluate our results?
 ```
-total_correct_labels: 98.0% | total_correct_sum: 97.2%
+total_correct_labels: 97.4% | total_correct_sum: 96.6%
 ```
-_total_correct_labels_ are the number of MNIST labels correctly predicted by our model which is 98% while _total_correct_sum_ is the number of correctly predicted labels for MNIST label + Random number. Our model is correctly predicting it upto 97.2%.
+_total_correct_labels_ are the number of MNIST labels correctly predicted by our model which is 97.4% while _total_correct_sum_ is the number of correctly predicted labels for MNIST label + Random number. Our model is correctly predicting it upto 96.6%.
 ```
 total_correct_labels = correctly predicted y1-hat / total MNIST labels
 
